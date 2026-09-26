@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Твой первый доход в интернете | Пошаговый план</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --accent: #f97316;
+            --bg: #f8fafc;
+            --text: #1e293b;
+            --card: #ffffff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: system-ui, -apple-system, sans-serif; }
+        body { background: var(--bg); color: var(--text); line-height: 1.6; }
+        
+        /* Шапка */
+        .hero {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white; text-align: center; padding: 80px 20px;
+        }
+        .hero h1 { font-size: 2.5rem; margin-bottom: 20px; line-height: 1.2; }
+        .hero p { font-size: 1.25rem; max-width: 700px; margin: 0 auto 40px; opacity: 0.9; }
+        
+        /* Кнопки */
+        .btn {
+            display: inline-block; background: var(--accent); color: white; 
+            padding: 18px 45px; text-decoration: none; border-radius: 12px; 
+            font-weight: bold; font-size: 1.2rem; transition: all 0.3s ease;
+            box-shadow: 0 10px 20px rgba(249, 115, 22, 0.3);
+        }
+        .btn:hover { transform: translateY(-3px); box-shadow: 0 15px 25px rgba(249, 115, 22, 0.4); background: #ea580c; }
+        
+        /* Секции */
+        section { padding: 70px 20px; max-width: 1000px; margin: 0 auto; }
+        h2 { text-align: center; font-size: 2rem; margin-bottom: 50px; color: var(--text); }
+        
+        /* Преимущества */
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
+        .card {
+            background: var(--card); padding: 30px; border-radius: 16px; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #e2e8f0;
+            text-align: center; transition: transform 0.3s;
+        }
+        .card:hover { transform: translateY(-5px); }
+        .icon { font-size: 3rem; margin-bottom: 15px; }
+        .card h3 { margin-bottom: 10px; font-size: 1.2rem; }
+        
+        /* Для кого */
+        .audience { background: #fff; padding: 50px; border-radius: 20px; border: 2px solid #e2e8f0; }
+        .audience ul { list-style: none; max-width: 600px; margin: 0 auto; }
+        .audience li { padding: 12px 0; font-size: 1.1rem; border-bottom: 1px solid #f1f5f9; display: flex; align-items: center; gap: 15px;}
+        .audience li:last-child { border-bottom: none; }
+        .check { color: #10b981; font-weight: bold; font-size: 1.5rem; }
+        
+        /* Финальный призыв */
+        .cta-section { background: var(--text); color: white; text-align: center; padding: 80px 20px; border-radius: 0; max-width: 100%; margin-top: 40px;}
+        .cta-section h2 { color: white; }
+        .cta-section p { font-size: 1.2rem; margin-bottom: 30px; opacity: 0.8; }
+        
+        /* Футер */
+        footer { text-align: center; padding: 30px; color: #64748b; font-size: 0.9rem; }
+        
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 1.8rem; }
+            .hero p { font-size: 1.1rem; }
+            h2 { font-size: 1.6rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <h1>Твой первый стабильный доход в интернете</h1>
+        <p>Хватит искать «волшебные кнопки». Получи пошаговый план выхода на прибыль от практикующих вебмастеров. Работает даже без технического опыта.</p>
+        <a href="http://lp.blog-webmastera.ru/firstmoney/kurs/?utm_medium=affiliate&utm_source=gyriq25ekaterina" class="btn">Забрать пошаговый план 🚀</a>
+    </header>
+
+    <section>
+        <h2>Что ты получишь?</h2>
+        <div class="features">
+            <div class="card">
+                <div class="icon">🛠</div>
+                <h3>Рабочие схемы</h3>
+                <p>Никакой воды. Только те методы заработка в сети, которые приносят деньги прямо сейчас.</p>
+            </div>
+            <div class="card">
+                <div class="icon">🎓</div>
+                <h3>Обучение с нуля</h3>
+                <p>Инструкции от А до Я. Разберется даже тот, кто никогда не работал в интернете.</p>
+            </div>
+            <div class="card">
+                <div class="icon">🤝</div>
+                <h3>Поддержка</h3>
+                <p>Ты не останешься один на один с проблемами. Обратная связь и ответы на вопросы.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="audience">
+            <h2 style="margin-bottom: 30px;">Кому это подойдет?</h2>
+            <ul>
+                <li><span class="check">✓</span> Новичкам, которые хотят начать зарабатывать удаленно</li>
+                <li><span class="check">✓</span> Фрилансерам в поиске стабильного и масштабируемого дохода</li>
+                <li><span class="check">✓</span> Мамам в декрете и студентам для подработки</li>
+                <li><span class="check">✓</span> Всем, кто хочет обрести финансовую независимость</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <h2>Готов сделать первый шаг?</h2>
+        <p>Количество мест и доступной информации может быть ограничено. Не откладывай на потом.</p>
+        <a href="http://lp.blog-webmastera.ru/firstmoney/kurs/?utm_medium=affiliate&utm_source=gyriq25ekaterina" class="btn">Получить доступ к обучению</a>
+    </section>
+
+    <footer>
+        <p>© 2026 Путь к первому доходу. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
